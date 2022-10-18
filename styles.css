@@ -1,0 +1,36 @@
+* {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+[class*="part"] {
+  height: 20rem;
+}
+
+.body {
+  background-color: red;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.body .containerItem {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+.item {
+  width: 10rem;
+}
+.bodyHeader {
+  text-align: center;
+}
+.header {
+  height: 2rem;
+  background-color: green;
+  text-align: center;
+}
+.footer {
+  height: 3rem;
+  background-color: brown;
+  text-align: center;
+}
